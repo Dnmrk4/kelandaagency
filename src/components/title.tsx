@@ -6,7 +6,7 @@ const IndexPage: React.FC<{ title: string }> = ({ title }) => {
     <div>
       <Head>
         <title>{title}|Danmark Mutai</title>
-        <meta property="og:title" content="KELANDA INTERNATIONAL AGENCY, kelanda international agency, kelanda, KIA, study abroad eldoret, study abroad" key="title" />
+        <meta property="og:title" content="KELANDA INTERNATIONAL AGENCY . Your success is our success . 📍 Daima Tower, Northern Tower, 9th floor, Eldoret, Kenya" key="title" />
       </Head>
     </div>
   );

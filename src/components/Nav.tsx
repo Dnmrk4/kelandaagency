@@ -3,6 +3,8 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
+import Image from "next/image";
+
 
 function Nav() {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -61,12 +63,13 @@ function Nav() {
       <div className="flex items-center justify-between ">
         <div className="flex contener ">
           <Link href="/" className="text-4xl transition duration-300 hover:text-black dark:hover:text-white font-Pridi filter">
-            dm
+
+        KELANDA INTERNATIONAL AGENCY
           </Link>
         </div>
         <div>
           <div className="hidden space-x-16 font-head1kod md:flex">
-            <Link
+            {/* <Link
               type="button"
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
@@ -86,7 +89,7 @@ function Nav() {
               className="transition duration-300 hover:text-black dark:hover:text-white "
             >
               Gallery
-            </Link>
+            </Link> */}
 
             <div className="p-1 cursor-pointer">
               {renderThemeChanger()}

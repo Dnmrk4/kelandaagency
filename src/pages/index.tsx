@@ -6,7 +6,7 @@ function Home(): JSX.Element {
 
   return (
     < >
-      <IndexPage title="KELANDA" />
+      <IndexPage title="" />
 
       <div className="snap-y scroll-smooth bg-backpattern">
         <div className="container flex flex-col-reverse justify-between pt-20 pb-32 mx-auto md:pt-32 snap-start md:flex-row">

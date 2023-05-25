@@ -5,14 +5,14 @@ function Footer() {
   return (
     <footer className="flex flex-col-reverse justify-between p-10 md:h-48 font-frontdev hover:snap-end md:flex-row footer bg-neutral text-neutral-content">
       <div className="justify-center opacity-70 ">
-        {/* <Image
-          src="/assets/kelanda1.png"
+        <Image
+          src=""
           alt=""
           className="w-10 h-16 "
           width={10}
           height={16}
-        /> */}
-        <a href="tel:+254721995376"><p className="p-1 pl-2 pr-2 text-xs text-white bg-black ring-1 ring-purplish rounded-4xl">JOIN NOW</p></a>
+        />
+        <a href="mailto:kelandainternational@gmail.com"><p className="p-1 pl-2 pr-2 text-xs text-white bg-black ring-1 ring-purplish rounded-4xl">JOIN NOW</p></a>
         <p className="flex flex-row space-x-1 text-xs">
           <svg
             width="12"
@@ -31,7 +31,7 @@ function Footer() {
         <span className="text-base ">CONTACT US</span>
         <div className="flex flex-row w-full pr-0 space-x-3 md:pr-64">
 
-          <a href="mailto:kelandainternationalagency@gmail.com">
+          <a href="mailto:kelandainternational@gmail.com">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" className="" viewBox="0 0 24 24" stroke-width="1.5" width="24" height="24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
             </svg>

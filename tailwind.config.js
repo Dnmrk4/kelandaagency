@@ -8,6 +8,12 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      backgroundImage: {
+        'backpattern': "url('/src/public/bnb.jpg')",
+        'backback': "url('/src/public/nn.avif')",
+        'iconicon': "url('/src/public/kelanda1.png')"
+
+      },
       colors: {
         black: "#000000",
         blue: "#1fb6ff",
@@ -66,11 +72,12 @@ module.exports = {
       danm:['Secular One', 'sans-serif'],
       text2:['Montserrat Alternates', 'sans-serif'],
       text3:['Nanum Myeongjo', 'serif'],
+      huew:['Dancing Script', 'cursive']
 
     },
   },
   daisyui: {
-    themes: [
+    themes: [ "light", "dark", "cupcake", "bumblebee", "emerald", "corporate", "synthwave", "retro", "cyberpunk", "valentine", "halloween", "garden", "forest", "aqua", "lofi", "pastel", "fantasy", "wireframe", "black", "luxury", "dracula", "cmyk", "autumn", "business", "acid", "lemonade", "night", "coffee", "winter",
       {
         mytheme: {
           primary: "#6419E6",

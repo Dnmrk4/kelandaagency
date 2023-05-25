@@ -8,8 +8,8 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
 
   return (
     <>
-      <IndexPage title="Danmark" />
-      <div className="scroll-smooth">
+      <IndexPage title="K" />
+      <div className="scroll-smooth backpattern dark:backback" >
         <div className="fixed w-full ">
           <Nav />
         </div>

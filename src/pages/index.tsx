@@ -3,23 +3,17 @@ import IndexPage from "../components/title";
 import Image from "next/image";
 
 function Home(): JSX.Element {
+
   return (
-    <>
+    < >
       <IndexPage title="KELANDA" />
-      {/* <Image
-        src="/assets/bnb.jpg"
-        alt="bb"
-        typeof="image"
-        layout="fill"
-        objectFit="cover"
-        className="bodies"
-      /> */}
-      <div className="snap-y scroll-smooth">
+
+      <div className="snap-y scroll-smooth bg-backpattern">
         <div className="container flex flex-col-reverse justify-between pt-20 pb-32 mx-auto md:pt-32 snap-start md:flex-row">
           <div className="flex flex-col mx-auto space-y-10 text-center w-72 mt-28 min-w-lg md:text-left md:w-144">
             {/* <p className="-mb-10 text-left font-dnmrk1hi"><span className="text-lg font-bold ">Hi</span>, I&apos;m</p> */}
             <p className="text-6xl font-Pridi">STUDY ABROAD!</p>
-            <p className="text-xl min-w-max font-text1 text-kore4">Your success is our success</p>
+            <p className="text-xl italic font-thin min-w-max font-huew">Your success is our success</p>
             <p className="max-w-xs text-sm md:max-w-md font-text2">
             United States . United Kingdom. Canada Australia . Germany . Netherlands Finland . Ireland . New Zealand
             </p>

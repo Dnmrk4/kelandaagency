@@ -97,7 +97,7 @@ function Nav() {
             </div>
           </div>
 
-          <div className="block px-4 py-3 mx-2 opacity-100 md:hidden dropdown">
+          {/* <div className="block px-4 py-3 mx-2 opacity-100 md:hidden dropdown">
             <label tabIndex={0} className="btn btn-ghost btn-circle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +118,7 @@ function Nav() {
               tabIndex={0}
               className="justify-center p-2 mt-3 space-y-4 shadow shadow-current menu menu-compact dropdown-content bg-opacity-95 bg-slate-300 dark:bg-base-100 rounded-box w-52"
             >
-              {/* <li>
+              <li>
                 <Link
                   href="/about"
                   className="transition duration-800"
@@ -141,14 +141,14 @@ function Nav() {
                 >
                   Gallery
                 </Link>
-              </li> */}
+              </li>
 
               <Link href="" className="pl-4">
                 {renderThemeChanger()}
 
               </Link>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>
